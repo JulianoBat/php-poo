@@ -1,7 +1,7 @@
 <?php 
 declare(strict_types=1);
 
-namespace Juliano\Pooteste;
+namespace Juliano\Pooteste\Entidades;
 
 class Escuderia extends Entidade{
     public ChefeEquipe $chefe_equipe;
