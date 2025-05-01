@@ -11,16 +11,19 @@ $piloto2 = new Piloto(2, "Lando", "Norris", "13/11/1999", "NOR", 4, "Piloto");
 
 $chefe1 = new ChefeEquipe(1, "Andre", "Stella", "22/02/1971", "Chefe de Equipe");
 
-$equipe = new Escuderia;
+$equipe = new Escuderia("McLaren");
 
 
 $equipe->piloto1 = $piloto1;
 $equipe->piloto2 = $piloto2;
 $equipe->chefe_equipe = $chefe1;
 
-dump($equipe);
 
-dump($chefe1);
-dump($piloto1);
-dump($piloto2);
+dump($equipe->getNome());
+
+// dump($chefe1);
+// dump($piloto1);
+// dump($piloto2);
+
+
 ?>
